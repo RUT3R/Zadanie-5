@@ -1,9 +1,10 @@
+/*Wszystko Działa*/
 body {
     background-color: grey;
 }
 h2 {
     color: #0D5A5A;
-    font-family: cursive;
+    ont-family: cursive;
 }
 table, th, td {
     border: 1px solid black;
@@ -27,12 +28,13 @@ dl > dd {
     width: 200px;
     height: 300px;
 }
-
 .skrót{
     font-family: 'Courier New';
+    text-indent: 5%;
 }
 .fabula {
     line-height: 1.6em;
+    text-align: justify;
 }
 h1 {
     font-size: 30px;
@@ -56,14 +58,13 @@ th {
 a[href*="youtu.be"]{
     font-weight: bold;
 }
-    th.T, td.T {
+th.T, td.T {
         border: 1px solid black;
         border-collapse: collapse;
-    }
-    th, td {
+}
+th, td {
         padding: 10px;
-    }
-
+}
 .tabelaA {
     border-top-style: dotted;
     border-bottom-style: dotted;
@@ -78,4 +79,31 @@ a[href*="youtu.be"]{
     border-bottom-style: dotted;
     border-left-style: dotted;
     border-right-style: dotted;
+}
+.baneer{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+#Film {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Film a{
+    color: maroon !important;
+}
+.L td[rowspan= "3"]{
+    background-color: lightcyan;
+}
+dt.intro::first-letter{
+    font-weight: bold;
+    font-style: italic;
+}
+P {
+    text-indent: 20px;
+    background-color: beige;
+    font-family: "Courier New";
 }
